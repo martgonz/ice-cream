@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/styles.css" rel="stylesheet"  type = "text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src = "js/scripts.js"></script>
+  <title>Ice Cream Shop</title>
+</head>
+<body>
+  <div class="container">
+  <h1>Epicodus Ice Cream Shop</h1>
+  <p>
+    Pick a size:
+  </p>
+  <div class="radio">
+    <label>
+      <input type="radio" name="size" value="single" checked>
+      Single Scoop
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="size" value="double">
+      Double Scoop
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="size" value="kid">
+      Kid Scoop
+    </label>
+  </div>
+  <button type="click" id="sizeSubmit">Next</button>
+  <div id="single">
+    <p>
+      Choose your flavor:
+    </p>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavorSingle" value="vanilla" checked>
+        Vanilla
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavorSingle" value="chocolate">
+        Chocolate
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavorSingle" value="strawberry">
+        Strawberry
+      </label>
+    </div>
+    <div class="form-group">
+      <p>
+        Choose toppings:
+      </p>
+      <input type="checkbox" name="toppings1" value="sprinkles"> sprinkles<br>
+      <input type="checkbox" name="toppings1" value="gummy bears">gummy bears<br>
+      <input type="checkbox" name="toppings1" value="nuts">Nuts<br>
+      <input type="checkbox" name="toppings1" value="syrup">Syrup<br>
+    </div>
+    <button type="submit" id="singleSubmit">Submit</button>
+
+  </div>
+  <div id="double">
+    <p>
+      Choose flavor 1:
+    </p>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor1" value="vanilla" checked>
+        Vanilla
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor1" value="chocolate">
+        Chocolate
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor1" value="strawberry">
+        Strawberry
+      </label>
+    </div>
+    <p>
+      Choose flavor 2:
+    </p>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor2" value="vanilla" checked>
+        Vanilla
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor2" value="chocolate">
+        Chocolate
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor2" value="strawberry">
+        Strawberry
+      </label>
+    </div>
+      <p>
+        Choose toppings:
+      </p>
+      <input type="checkbox" name="toppings2" value="sprinkles"> sprinkles<br>
+      <input type="checkbox" name="toppings2" value="gummy bears">gummy bears<br>
+      <input type="checkbox" name="toppings2" value="nuts">Nuts<br>
+      <input type="checkbox" name="toppings2" value="syrup">Syrup<br>
+    </div>
+    <button type="submit" id="doubleSubmit">Submit</button>
+  </div>
+</div>
+</body>
+</html>
